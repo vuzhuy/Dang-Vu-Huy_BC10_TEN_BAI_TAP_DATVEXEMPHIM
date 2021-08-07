@@ -32,7 +32,7 @@ class ThongTinDatGhe extends Component {
               {this.props.danhSachGheDangDat.map((gheDangDat,index) => {
                 return <tr key={index}>
                   <td>{gheDangDat.soGhe}</td>
-                  <td>{gheDangDat.soGhe.toLocaleString()}</td>
+                  <td>{gheDangDat.gia.toLocaleString()}</td>
                   <td><button onClick={() =>{
                     this.props.dispatch(huyGheAction(gheDangDat.soGhe))    
                   }}>Hủy</button></td>

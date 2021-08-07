@@ -7,9 +7,9 @@ export const datGheAction = (ghe) => {
     }
 }
 
-export const huyGheAction = (ghe) => {
+export const huyGheAction = (soGhe) => {
     return {
         type: HUY_GHE,
-        ghe
+        soGhe
     }
 }
